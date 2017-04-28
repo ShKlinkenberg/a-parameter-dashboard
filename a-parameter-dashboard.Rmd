@@ -31,7 +31,7 @@ __Pragmatic solution__
 
 So there are some fundamental problems in estimating a. But can we at least have some pragmatic solution?
 
-<hr>
+__For fancy visuals see QR code__
 
 <!-- QR code box -->
 
