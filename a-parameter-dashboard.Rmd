@@ -1,0 +1,49 @@
+---
+title: "Item discrimination in Math Garden"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    social: menu
+    source_code: embed
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+Inputs {.sidebar}
+-----------------------------------------------------------------------
+
+<h1>Research</h1>
+
+```{r, echo=FALSE, eval=FALSE}
+ selectInput("clusterNum", label = h3("Cluster number"), 
+    choices = list("1" = 1, "2" = 2, "3" = 3, "4" = 4, "5" = 5), 
+    selected = 1)
+```
+
+This is my text.
+
+Row
+-----------------------------------------------------------------------
+
+### Discrimination
+    
+![](Proportion_correct.gif)
+
+Row {.tabset}
+-----------------------------------------------------------------------
+
+### Item ratings
+    
+```{r}
+
+```
+   
+### User Ratings
+
+```{r}
+
+```
+
