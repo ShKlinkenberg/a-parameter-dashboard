@@ -2,7 +2,7 @@
 title: "Item discrimination in Math Garden"
 output: 
   flexdashboard::flex_dashboard:
-    orientation: rows
+    orientation: col
     social: menu
     source_code: embed
     vertical_layout: fill
@@ -25,25 +25,26 @@ Inputs {.sidebar}
 
 This is my text.
 
-Row
+Row {data-width=500}
 -----------------------------------------------------------------------
 
 ### Discrimination
     
 ![](Proportion_correct.gif)
 
-Row {.tabset}
------------------------------------------------------------------------
-
 ### Item ratings
     
-```{r}
-
-```
+![](item_distributions.gif)
    
 ### User Ratings
 
-```{r}
+![](user_distributions.gif)
 
-```
+Row
+-----------------------------------------------------------------------
 
+### Method
+
+a
+
+### Discussiong
