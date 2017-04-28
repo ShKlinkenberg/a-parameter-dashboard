@@ -91,7 +91,7 @@ Look at BIAS and SEM.
 
 ![](scatterplots_for_all_estimation_methods.jpg)
 
-### To-DO {data-height=200}
+### TO-DO {data-height=200}
 
 <div style="
     -webkit-column-count: 2;
