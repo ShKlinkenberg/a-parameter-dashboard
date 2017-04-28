@@ -14,7 +14,7 @@ output:
 library(flexdashboard)
 ```
 
-# <a href="poster.pdf" target="_blank">Poster</a>
+# <a style="color: white;" href="https://shklinkenberg.github.io/a-parameter-dashboard/poster.pdf" target="_blank">Poster</a>
 
 Inputs {.sidebar}
 -----------------------------------------------------------------------
