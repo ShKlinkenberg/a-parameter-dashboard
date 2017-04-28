@@ -9,8 +9,8 @@ output:
     source_code: embed
     vertical_layout: fill
     navbar:
-      - { icon: "ion-android-contact", href: "http://www.uva.nl/en/profile/k/l/s.klinkenberg/s.klinkenberg.html", align: right }
-      - { icon: "fa-download", href: "poster.pdf", align: right }
+      - { icon: "ion-android-contact", title: "Contact", href: "http://www.uva.nl/en/profile/k/l/s.klinkenberg/s.klinkenberg.html", align: right }
+      - { icon: "fa-download", title: "Poster", href: "poster.pdf", align: right }
 ---
 
 ```{r setup, include=FALSE}
