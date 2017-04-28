@@ -14,6 +14,8 @@ output:
 library(flexdashboard)
 ```
 
+# <a href="poster.pdf" target="_blank">Poster</a>
+
 Inputs {.sidebar}
 -----------------------------------------------------------------------
 
