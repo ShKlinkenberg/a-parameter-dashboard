@@ -2,6 +2,7 @@
 title: "Item discrimination in Math Garden"
 output: 
   flexdashboard::flex_dashboard:
+    logo: http://shklinkenberg.github.io//statistics-lectures/template/logo_uva.png
     orientation: col
     social: menu
     source_code: embed
@@ -25,13 +26,22 @@ Inputs {.sidebar}
 
 This is my text.
 
-Row {data-width=500}
+More text and more and more
+
+<div style="text-align: center;">
+<img style="width:60%;" src="qrcode.png">
+
+https://goo.gl/a6ch6A
+</div>
+
+Column {data-width=500}
 -----------------------------------------------------------------------
 
 ### Discrimination
     
 ![](Proportion_correct.gif)
 
+   
 ### Item ratings
     
 ![](item_distributions.gif)
@@ -40,7 +50,7 @@ Row {data-width=500}
 
 ![](user_distributions.gif)
 
-Row
+Column
 -----------------------------------------------------------------------
 
 ### Method
