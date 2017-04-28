@@ -1,5 +1,6 @@
 ---
-title: "Item discrimination in Math Garden"
+title: "Item Discrimination in Math Garden"
+author: "Sharon Klinkenberg - REC-G -1.12"
 output: 
   flexdashboard::flex_dashboard:
     logo: http://shklinkenberg.github.io//statistics-lectures/template/logo_uva.png
@@ -18,15 +19,21 @@ Inputs {.sidebar}
 
 <h1>Research</h1>
 
-```{r, echo=FALSE, eval=FALSE}
- selectInput("clusterNum", label = h3("Cluster number"), 
-    choices = list("1" = 1, "2" = 2, "3" = 3, "4" = 4, "5" = 5), 
-    selected = 1)
-```
+The aim of this study is to find a feasable method to determine item discrimination values within the Math Garden to detect deviant items.
 
-This is my text.
+__What is the problem__
 
-More text and more and more
+* Sparse data
+* Scaling
+* Identifiability
+
+__Pragmatic solution__
+
+So there are some fundamental problems in estimating a. But can we at least have some pragmatic solution?
+
+<hr>
+
+<!-- QR code box -->
 
 <div style="text-align: center;">
 <img style="width:60%;" src="qrcode.png">
@@ -55,6 +62,45 @@ Column
 
 ### Method
 
-a
+__Simulations__
 
-### Discussiong
+Simulate responses and response times based on known $\theta$'s, $\beta$'s and $a$-parameters. Look how wel we can recover the $a$-parameter.
+
+<div style="
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+            // border: 1px solid green;">
+
+* Simulate full data
+    * Estimate with LTM
+    * GLM
+    * Newton-Rapson
+    
+* Simulate sparse data
+    * LTM
+    * GLM
+    * Newton-Rapson
+</div>
+Look at BIAS and SEM. 
+
+### Proliminary Results
+
+![](scatterplots_for_all_estimation_methods.jpg)
+
+### To-DO {data-height=200}
+
+<div style="
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+            // border: 1px solid green;">
+
+* $a = 1$
+* $a \sim U(0,3)$
+* $a \sim U(-.5,3)$
+* Apply NR in Math Garden
+* Inactivate bad items
+* Apply to real data
+
+</div>
