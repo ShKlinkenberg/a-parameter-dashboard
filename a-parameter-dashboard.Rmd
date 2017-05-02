@@ -1,6 +1,6 @@
 ---
 title: "Item Discrimination in Math Garden"
-author: "Sharon Klinkenberg"
+author: "Sharon Klinkenberg (REC-G -1.12)"
 output: 
   flexdashboard::flex_dashboard:
     logo: http://shklinkenberg.github.io//statistics-lectures/template/logo_uva.png
